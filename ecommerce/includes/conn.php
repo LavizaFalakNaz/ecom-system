@@ -1,10 +1,13 @@
 <?php
 
 Class Database{
- 
-	private $server = "mysql:host=localhost;dbname=ecomm";
-	private $username = "root";
-	private $password = "";
+	
+    $database = ;
+	
+	
+	private $server = "mysql:host=us-cdbr-east-05.cleardb.net;dbname=heroku_7fce67cb249adf3";
+	private $username = "bcc77e1841a73a";
+	private $password = "dd32e024";
 	private $options  = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,);
 	protected $conn;
  	
